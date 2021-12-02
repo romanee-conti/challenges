@@ -1,0 +1,71 @@
+/* margin: top | right | bottom | left */
+
+section {
+    margin: 0 auto 50px auto;
+}
+
+div {
+    height: 180px;
+    width: 300px;
+    margin:auto;
+}
+
+span {
+    height: 180px;
+    width: 100px;
+    float: left;
+}
+
+/* GERMAN FLAG */
+
+.german div {
+    height: 60px;
+}
+
+.german div.top {
+    background-color: black;
+}
+
+.german div.middle {
+    background-color: yellow;
+}
+
+.german div.bottom {
+    background-color: red;
+}
+
+div.german:hover > div.top {
+    background-color: red;
+}
+
+div.german:hover > div.middle {
+    background-color: white;
+}
+
+div.german:hover > div.bottom {
+    background-color: green;
+}
+
+
+/* FRENCH FLAG */
+
+
+.french span.left {
+    background-color: blue;
+}
+
+.french span.centre {
+    background-color: white;
+}
+
+.french span.right {
+    background-color: red;
+}
+
+div.french:hover > span.left {
+    background-color: green;
+}
+
+div.french:hover > span.right {
+    background-color: orange;
+}
