@@ -62,10 +62,10 @@ div.german:hover > div.bottom {
     background-color: red;
 }
 
-div.french:hover > span.left {
+div.french:active > span.left {
     background-color: green;
 }
 
-div.french:hover > span.right {
+div.french:active > span.right {
     background-color: orange;
 }
