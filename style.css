@@ -1,7 +1,7 @@
 /* margin: top | right | bottom | left */
 
 section {
-    margin: 0 auto 50px auto;
+    margin: 0 auto 50px;
 }
 
 div {
@@ -22,27 +22,27 @@ span {
     height: 60px;
 }
 
-.german div.top {
+.top {
     background-color: black;
 }
 
-.german div.middle {
+.middle {
+    background-color: red;
+}
+
+.bottom {
     background-color: yellow;
 }
 
-.german div.bottom {
+.german:hover > .top {
     background-color: red;
 }
 
-div.german:hover > div.top {
-    background-color: red;
-}
-
-div.german:hover > div.middle {
+.german:hover > .middle {
     background-color: white;
 }
 
-div.german:hover > div.bottom {
+.german:hover > .bottom {
     background-color: green;
 }
 
@@ -50,22 +50,18 @@ div.german:hover > div.bottom {
 /* FRENCH FLAG */
 
 
-.french span.left {
+.left {
     background-color: blue;
 }
 
-.french span.centre {
-    background-color: white;
-}
-
-.french span.right {
+.right {
     background-color: red;
 }
 
-div.french:active > span.left {
+.french:active > .left {
     background-color: green;
 }
 
-div.french:active > span.right {
+.french:active > .right {
     background-color: orange;
 }
